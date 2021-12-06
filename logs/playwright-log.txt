@@ -1,0 +1,19 @@
+{"level":30,"time":"2021-12-06T11:15:45.671Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Listening on 60630"}
+{"level":30,"time":"2021-12-06T11:15:46.430Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-12-06T11:15:46.449Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Changed active context"}
+{"level":30,"time":"2021-12-06T11:15:46.588Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Video path: undefined"}
+{"level":30,"time":"2021-12-06T11:15:46.588Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Changed active page"}
+{"level":30,"time":"2021-12-06T11:15:49.651Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with text=Cadastre-se in page."}
+{"level":30,"time":"2021-12-06T11:15:50.220Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with css=.signup-form in page."}
+{"level":30,"time":"2021-12-06T11:15:50.230Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2021-12-06T11:15:50.750Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with id=lastname in page."}
+{"level":30,"time":"2021-12-06T11:15:51.272Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2021-12-06T11:15:51.794Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2021-12-06T11:15:52.322Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with text=Cadastrar in page."}
+{"level":30,"time":"2021-12-06T11:15:52.862Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Strict mode is enabled, find Locator with css=p >> text=Agora você faz parte da Getgeeks. Tenha uma ótima experiência. in page."}
+{"level":30,"time":"2021-12-06T11:15:53.335Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Changed active context"}
+{"level":30,"time":"2021-12-06T11:15:53.335Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Changing current active page"}
+{"level":30,"time":"2021-12-06T11:15:53.335Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Changed active page"}
+{"level":30,"time":"2021-12-06T11:15:53.344Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Changed active context"}
+{"level":30,"time":"2021-12-06T11:15:53.344Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Changing current active page"}
+{"level":30,"time":"2021-12-06T11:15:53.344Z","pid":4900,"hostname":"DESKTOP-FV5Q462","msg":"Changed active page"}
