@@ -63,3 +63,40 @@ Mandatory Fields
 
     Alert Spans in Signup Page       ${expected_alerts}   ${field}
 
+
+Short Password
+    [Tags]                 attempt_signup2
+   
+    [Template]             Signup With Short Pass
+    
+    homu
+    1
+    -1
+    www 
+    2
+    kyosa
+    333w
+    )¨&*)
+    666
+
+*Keywords*
+Signup With Short Pass
+    [Arguments]            ${short_pass}
+
+    ${user_data}           Create Dictionary
+    ...                    name=Madoka                  lastname=Kaname
+    ...                    email=madoka32@gmail.com     password=${short_pass}
+    
+    ${expected_alert}      Set Variable     Informe uma senha com pelo menos 6 caracteres
+    ${field}               Set Variable     password 
+    
+    Go To Signup Form
+    Fill Signup Form                      ${user_data}
+    Submit Signup Form
+
+    Alert Span in Signup Page       ${expected_alert}  ${field}
+
+    End Session
+    Close Browser
+    Start Session
+

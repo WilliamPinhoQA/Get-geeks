@@ -32,3 +32,5 @@ def factory_wrong_email():
     }
     
     return user
+
+
