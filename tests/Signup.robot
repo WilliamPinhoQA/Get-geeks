@@ -37,7 +37,7 @@ Duplicate user
 Wrong E-mail
     [Tags]                 attempt_signup
     ${user_data}                            Factory Wrong Email
-    ${expected_message}    Set Variable     O email está estranho
+    ${expected_alert}      Set Variable     O email está estranho
     ${field}               Set Variable     email   
 
     
@@ -46,20 +46,20 @@ Wrong E-mail
     Fill Signup Form                      ${user_data}
     Submit Signup Form
 
-    Field Notification in Signup Page       ${expected_message}   ${field}
+    Alert Span in Signup Page       ${expected_alert}  ${field}
 
 
 Mandatory Fields
     [Tags]                 attempt_signup
     ${user_data}                            Factory Wrong Email
-    ${expected_message}    Set Variable     Cadê o seu nome?    E o sobrenome?
+    ${expected_alerts}    Set Variable     Cadê o seu nome?    E o sobrenome?
     ...           O email é importante também!    Agora só falta a senha!
-    ${field}               Set Variable     name    lastname    email   password   
+    ${field}             Set Variable     name    lastname    email   password   
 
     
     Go To Signup Form
 
     Submit Signup Form
 
-    Field Notifications in Signup Page       ${expected_message}   ${field}
+    Alert Spans in Signup Page       ${expected_alerts}   ${field}
 

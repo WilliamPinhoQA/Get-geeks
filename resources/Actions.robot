@@ -44,8 +44,8 @@ Modal Content Should Be
     #Get Style   css=.swal2-error also works
     Get Style   css=.swal2-error   display      contains    flex  
 
-Field Notifications in Signup Page
-    [Arguments]         ${expected_message}     ${fields}
+Alert Spans in Signup Page
+    [Arguments]         ${expected_alerts}     ${fields}
 
     ${i}    Set Variable    0
 
@@ -57,16 +57,16 @@ Field Notifications in Signup Page
             Log      ${field}[${i}]
             
             ${message}=         Get text        xpath=//label[@for="${field}[${i}]"]/..//span[@class="error"]
-            Should Be Equal     ${expected_message}[${i}]     ${message}
+            Should Be Equal     ${expected_alerts}[${i}]     ${message}
 
         END
 
 
-Field Notification in Signup Page
-    [Arguments]         ${expected_message}     ${field}
+Alert Span in Signup Page
+    [Arguments]         ${expected_alert}     ${field}
 
     ${message}=         Get text        xpath=//label[@for="${field}"]/..//span[@class="error"]
-    Should Be Equal     ${expected_message}    ${message}
+    Should Be Equal     ${expected_alert}    ${message}
 
              
 
