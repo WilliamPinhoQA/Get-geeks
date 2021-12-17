@@ -2,8 +2,10 @@
 Documentation   Base Hooks
 Library         Browser
 Library         factories/Users.py
+Library         Collections
 
 Resource            Actions.robot
+Resource            Helpers.robot
 
 
 **Variables**

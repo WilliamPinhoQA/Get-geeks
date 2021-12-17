@@ -1,11 +1,13 @@
 *Settings*
-Documentation       Delorean
+Documentation   Delorean
+Resource                ${EXECDIR}/resources/Database.robot
 
-Resource            ${EXECDIR}/resources/Database.robot
 
 *Tasks*
-Back To The Past
+
+Back to The Past
 
     Connect To Postgres
     Reset Env
     Disconnect from Database
+

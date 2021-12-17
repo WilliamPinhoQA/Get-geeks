@@ -21,3 +21,14 @@ def factory_fake_user():
     }
     
     return user
+
+
+def factory_wrong_email():
+    user =  {
+        'name': fake.first_name(),
+        'lastname': fake.last_name(),
+        'email': fake.company(),
+        'password': 'kyosaya'
+    }
+    
+    return user

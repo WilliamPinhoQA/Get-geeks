@@ -17,3 +17,15 @@ Reset Env
     ${delete_geeks}     Set Variable    DELETE from public.geeks;
     Execute SQL String          DELETE from public.users;
     Execute SQL String          ${delete_geeks}
+
+
+Insert User
+  [Arguments]           ${user_data}
+
+  ${complete_name}       Set Variable          ${user_data}[name] ${user_data}[lastname]
+  ${sql_operation}       Catenate    SEPARATOR=,         email   password_hash   name    is_geek
+  ${sql_values}          Catenate    SEPARATOR=,         '${user_data}[email]'  
+  ...                    '${user_data}[password]'        '${complete_name}'      false
+
+  Execute SQL String    INSERT INTO public.users (${sql_operation}) values (${sql_values})      
+
